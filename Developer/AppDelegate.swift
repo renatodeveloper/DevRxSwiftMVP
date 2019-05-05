@@ -16,6 +16,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        /*
+         Aba General -> Identity -> Deploymente info
+         Iniciar pelo .xib ( Deixar Main Interface vazio, sem o apontamento do Main.storyboard )
+         
+         window = UIWindow(frame: UIScreen.main.bounds)
+         let homeViewController = Login()
+         window!.rootViewController = homeViewController
+         window!.makeKeyAndVisible()
+        */
+        
         return true
     }
 
