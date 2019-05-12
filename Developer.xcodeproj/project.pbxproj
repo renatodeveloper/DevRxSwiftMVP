@@ -229,6 +229,13 @@
 			path = backend;
 			sourceTree = "<group>";
 		};
+		7354AB0C2288C6020015A9BD /* helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
 		73D5681C22877DE200435107 /* model */ = {
 			isa = PBXGroup;
 			children = (
@@ -241,18 +248,11 @@
 		73D5682222877E4400435107 /* infrastructure */ = {
 			isa = PBXGroup;
 			children = (
+				7354AB0C2288C6020015A9BD /* helper */,
 				73925D4D22515EDD00D269C1 /* Constants.swift */,
 				3BF2A43B2241104600CFB862 /* backend */,
-				73D5682622877E8800435107 /* helper */,
 			);
 			path = infrastructure;
-			sourceTree = "<group>";
-		};
-		73D5682622877E8800435107 /* helper */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = helper;
 			sourceTree = "<group>";
 		};
 		73D5682922877FAA00435107 /* application */ = {
